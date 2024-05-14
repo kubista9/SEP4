@@ -19,11 +19,8 @@
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
-<<<<<<< HEAD
     "test": "jest",
-=======
-    "test": "jest --coverage",
->>>>>>> main
+    "test:coverage": "jest --coverage",
     "eject": "react-scripts eject"
   },
   "jest": {
@@ -50,13 +47,6 @@
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
-<<<<<<< HEAD
-    ],
-    "jest": {
-      "setupFilesAfterEnv": ["@testing-library/jest-dom/extend-expect"]
-    }    
-  }
-=======
     ]
   },
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) using npx create-react-app.",
@@ -77,5 +67,4 @@
   },
   "author": "",
   "license": "ISC"
->>>>>>> main
 }

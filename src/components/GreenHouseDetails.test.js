@@ -1,4 +1,3 @@
-// GreenHouseDetails.test.js
 import React from 'react';
 import GreenHouseDetails from './GreenHouseDetails';
 import { render, screen, waitFor, act } from '@testing-library/react';
@@ -54,4 +53,3 @@ test('renders greenhouse details after successful fetch', async () => {
   expect(screen.queryByText(/CO2 levels: 400 ppm/i)).toBeInTheDocument();
   expect(screen.queryByText(/Humidity: 60%/i)).toBeInTheDocument();
 });
-
